@@ -46,7 +46,7 @@ var solve = function(board) {
         }
     }
     
-    //dsf call to connected holes from boundary condition
+    //dfs call to connected holes from boundary condition
    var reserved = function( board, i, j){
         if(i<0 || i>=board.length || j<0 || j>=board[0].length)
             return;
