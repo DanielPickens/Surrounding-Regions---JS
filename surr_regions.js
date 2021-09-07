@@ -4,8 +4,8 @@ var solve = function(board) {
         
         boundaryRow(board,0);  //identify 1st row , loop holes
         boundaryRow(board,n-1); //identify last row , loop holes
-        boundaryColumn(board,0);
-        boundaryColumn(board,m-1);
+        boundaryColumn(board,0); //identify 1st column , loop holes
+        boundaryColumn(board,m-1); //identify last column, loop holes
         
          for(let i=0;i<n;i++){
             for(let j=0;j<m;j++){
